@@ -1,7 +1,7 @@
 Cambios
 
-Launcher (v1.0.2):
+Launcher (v1.0.3):
 - Eliminar automaticamente los archivos temporales
 
-Juego (v1.0.2):
+Juego (v1.0.3):
 - NaN
