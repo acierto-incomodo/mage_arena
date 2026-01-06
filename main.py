@@ -12,7 +12,7 @@ from PySide6 import QtCore, QtWidgets, QtGui
 
 # ---------------- CONFIG ------------------
 
-LAUNCHER_VERSION = "1.0.0"
+LAUNCHER_VERSION = "1.0.1"
 
 BUILD_URL_WIN = "https://github.com/acierto-incomodo/mage_arena/releases/latest/download/Build.zip"
 BUILD_URL_LINUX = "https://github.com/acierto-incomodo/mage_arena/releases/latest/download/BuildLinux.zip"
@@ -97,7 +97,7 @@ class LauncherWindow(QtWidgets.QWidget):
     def setup_ui(self):
         layout = QtWidgets.QVBoxLayout(self)
 
-        title = QtWidgets.QLabel("Mage Arena Launcher")
+        title = QtWidgets.QLabel("Mage Arena")
         title.setAlignment(QtCore.Qt.AlignCenter)
         title.setStyleSheet("font-size:22px; font-weight:bold;")
         layout.addWidget(title)
